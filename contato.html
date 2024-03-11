@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Shelter of Gaming Gear</title>
+    <link rel="icon" href="img/logotipo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles_contato.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><img src="img/logoabreviada.png" alt="Logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li class="menu">
+                    <a href="#">Produtos</a>
+                    <div class="opcoes">
+                        <a href="mouse.html">Mouse</a>
+                        <a href="teclado.html">Teclado</a>
+                        <a href="headset.html">Headset</a>
+                        <a href="monitor.html">Monitor</a>
+                        <a href="cadeira.html">Cadeira Gamer</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato">
+            <h2 class="h2">Entre em Contato</h2>
+            <section class="card">
+
+                <p>Alguma dúvida ou comentário? Envie-nos uma mensagem!</p>
+                <p><a href="mailto:seuemail@example.com">Clique aqui</a> para enviar-nos um e-mail.</p>
+                <p>Telefone: (42) 9 9838-7843</p>
+                <p>Nossa redes sociais:</p>
+                <ul class="redes-sociais">
+                    <li><a href="https://www.facebook.com/sua-pagina" target="_blank"><img src="img/FacebookLogo.png"
+                                alt="Facebook"></a></li>
+                    <li><a href="https://twitter.com/seu-twitter" target="_blank"><img src="img/TwitterLogo.png"
+                                alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/seu-instagram" target="_blank"><img
+                                src="img/InstagramLogo.png" alt="Instagram"></a></li>
+                </ul>
+
+                
+                    <form id="formContato" action="cadrasta.php" method="post" onsubmit="return Enviar()">
+                        Nome
+                        <input type="text" id="nome" placeholder="Digite o seu nome completo">
+                
+                        Email
+                        <input type="email" id="email" placeholder="email@email.com">
+                
+                        Mensagem
+                        <textarea id="menssage" placeholder="Deixe a sua mensagem"></textarea>
+                
+                        <input type="submit" class="enviar" value="Enviar">
+                    </form>
+                
+                <script rel="text/javascript" src="js/jsContato.js"></script>
+                
+            </section>
+        </section>
+    </main>
+
+    <footer class="parallax">
+        <p>&copy; 2024 Acessórios para Gamers. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

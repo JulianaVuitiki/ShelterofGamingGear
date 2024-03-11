@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a237e;
+}
+
+header {
+    background-color: #1a237e;
+    color: #fff;
+    padding: 12px;
+    text-align: justify;
+}
+
+.h1{
+    text-align: left;
+}
+header a:hover{
+    color: #fff;
+    background-color: #64b5f6;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.opcoes {
+    display: none;
+    position: absolute;
+    background-color: #1a237e;
+    min-width: 142px;
+}
+
+.opcoes a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.opcoes a:hover {
+    background-color: #64b5f6;
+}
+
+.menu:hover .opcoes {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+    background-color: #1c2476;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.h2{
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.produto-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    width: 26%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    margin-bottom: 10px;
+}
+
+.produto button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.produto button:hover {
+    background-color: #1565c0;
+}
+
+footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.parallax{
+    position: relative;
+    background-image: url("img/Fundo\ 1.jpg");
+    height: 100%;
+    opacity: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
